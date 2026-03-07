@@ -1,0 +1,54 @@
+*MAIN*
+
+INPUT
+Read... 2 test scores from 4 different students
+
+
+PROCESS
+Make a switch statement that allows the user to pick an option to display a grade report(1), display a grade report and print it to a file(2), and exit the program(3)
+Make 2 arrays that store the scores of test1 and test2
+Take the average of the test scores by creating a method that allows you to
+pull each test score by its index and
+Make another method that assigns a letter grade to the students based on the average of the two test scores
+
+
+OUTPUT
+A GRADE REPORT THAT SHOWS THE TEST SCORES OF EACH STUDENT FOR TEST 1 AND 2 AND DISPLAYS AN AVERAGE AND AN ASSIGNED LETTER GRADE BASED ON THE AVERAGE
+
+-----------------------------------------------
+
+**CALCULATING AVERGAE **
+
+INPUT
+READ.. 2 test scores from 4 students
+
+
+
+PROCESS
+Make.. a new method and create  double array called average that calculates the average of each student's test scores
+Create.. a for loop that takes the average within each index
+This for loop should occur 4 times
+Make the test 1 and 2 arrays a parameter to calculate the average
+
+
+OUTPUT
+Each students' average
+
+-----------------------------------------------
+
+**ASSIGNING A LETTER GRADE**
+
+INPUT
+Take the average of the test scores from each student and assign a letter grade
+
+
+PROCESS
+Create.. a new method that allows you to take the average of the student test scores with the paramter of the double[] average
+Make a nested if statemnt that states if the average is >= 90, then the grade letter A
+else if average is >= 80, The letter grade is B
+else if the average is >= 70, the letter grade is C
+otherwise the letter grade is F
+
+
+OUTPUT
+A LETTER GRADE BASED ON THE FINAL AVERAGE
